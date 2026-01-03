@@ -1,0 +1,17 @@
+{
+  "name": "攻击型自爆无人机",
+  "length": 1,
+  "width": 1,
+  "health": 50,
+  "speed": 4,
+  "can_attack": true,
+  "attack_range": 0,
+  "attack_damage": 300,
+  "vision_range": 6,
+  "armor": 0,
+  "cost": 80,
+  "special_ability": "自爆",
+  "movement_type": "空中",
+  "reload_time": 0,
+  "fuel_capacity": 30
+}

@@ -1,0 +1,17 @@
+{
+  "name": "侦察型无人机",
+  "length": 1,
+  "width": 1,
+  "health": 30,
+  "speed": 5,
+  "can_attack": false,
+  "attack_range": 0,
+  "attack_damage": 0,
+  "vision_range": 15,
+  "armor": 0,
+  "cost": 60,
+  "special_ability": "远程侦察",
+  "movement_type": "空中",
+  "reload_time": 0,
+  "fuel_capacity": 40
+}

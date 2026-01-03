@@ -1,0 +1,17 @@
+{
+  "name": "战车",
+  "length": 3,
+  "width": 2,
+  "health": 400,
+  "speed": 3,
+  "can_attack": true,
+  "attack_range": 6,
+  "attack_damage": 80,
+  "vision_range": 8,
+  "armor": 40,
+  "cost": 180,
+  "special_ability": "中型装甲",
+  "movement_type": "陆地",
+  "reload_time": 1,
+  "fuel_capacity": 90
+}

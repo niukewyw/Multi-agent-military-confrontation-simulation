@@ -1,0 +1,17 @@
+{
+  "name": "火炮",
+  "length": 4,
+  "width": 2,
+  "health": 200,
+  "speed": 1,
+  "can_attack": true,
+  "attack_range": 25,
+  "attack_damage": 150,
+  "vision_range": 15,
+  "armor": 20,
+  "cost": 150,
+  "special_ability": "远程打击",
+  "movement_type": "陆地",
+  "reload_time": 3,
+  "fuel_capacity": 80
+}

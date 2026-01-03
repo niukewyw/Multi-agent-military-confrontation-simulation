@@ -1,0 +1,39 @@
+{
+  "name": "防御侧重地图",
+  "description": "侧重防御能力的地图配置，包含较多侦察单位和防护型智能体",
+  "map_size": [300, 300],
+
+  "ally_agents": [
+    {"type": "tank", "count": 2, "position_range": [[20, 80], [100, 200]]},
+    {"type": "artillery", "count": 2, "position_range": [[10, 50], [80, 220]]},
+    {"type": "suicide_drone", "count": 2, "position_range": [[30, 70], [120, 180]]},
+    {"type": "armored_vehicle", "count": 4, "position_range": [[25, 75], [90, 210]]},
+    {"type": "scout_vehicle", "count": 5, "position_range": [[15, 85], [110, 190]]},
+    {"type": "scout_drone", "count": 6, "position_range": [[20, 80], [105, 195]]}
+  ],
+
+  "enemy_agents": [
+    {"type": "tank", "count": 2, "position_range": [[220, 280], [100, 200]]},
+    {"type": "artillery", "count": 2, "position_range": [[250, 290], [80, 220]]},
+    {"type": "suicide_drone", "count": 2, "position_range": [[230, 270], [120, 180]]},
+    {"type": "armored_vehicle", "count": 4, "position_range": [[225, 275], [90, 210]]},
+    {"type": "scout_vehicle", "count": 5, "position_range": [[215, 285], [110, 190]]},
+    {"type": "scout_drone", "count": 6, "position_range": [[220, 280], [105, 195]]}
+  ],
+
+  "obstacles": {
+    "random_generation": {
+      "density": 0.015,
+      "cluster_probability": 0.4,
+      "min_cluster_size": 5,
+      "max_cluster_size": 25
+    },
+    "predefined_zones": [
+      {"center": [75, 150], "radius": 30, "density": 0.09},
+      {"center": [225, 150], "radius": 30, "density": 0.09},
+      {"center": [150, 150], "radius": 15, "density": 0.07}
+    ]
+  },
+
+  "terrain_types": ["fortified_positions", "bunkers", "urban_defenses"]
+}

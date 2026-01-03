@@ -1,0 +1,37 @@
+{
+  "name": "攻击侧重地图",
+  "description": "侧重攻击能力的地图配置，包含较多坦克、火炮和自爆无人机",
+  "map_size": [300, 300],
+
+  "ally_agents": [
+    {"type": "tank", "count": 3, "position_range": [[50, 100], [50, 250]]},
+    {"type": "artillery", "count": 4, "position_range": [[30, 80], [30, 270]]},
+    {"type": "suicide_drone", "count": 6, "position_range": [[40, 90], [40, 260]]},
+    {"type": "armored_vehicle", "count": 2, "position_range": [[60, 90], [60, 240]]},
+    {"type": "scout_vehicle", "count": 1, "position_range": [[70, 80], [70, 230]]},
+    {"type": "scout_drone", "count": 2, "position_range": [[45, 85], [45, 255]]}
+  ],
+
+  "enemy_agents": [
+    {"type": "tank", "count": 3, "position_range": [[200, 250], [50, 250]]},
+    {"type": "artillery", "count": 4, "position_range": [[220, 270], [30, 270]]},
+    {"type": "suicide_drone", "count": 6, "position_range": [[210, 260], [40, 260]]},
+    {"type": "armored_vehicle", "count": 2, "position_range": [[210, 240], [60, 240]]},
+    {"type": "scout_vehicle", "count": 1, "position_range": [[220, 230], [70, 230]]},
+    {"type": "scout_drone", "count": 2, "position_range": [[215, 255], [45, 255]]}
+  ],
+
+  "obstacles": {
+    "random_generation": {
+      "density": 0.01,
+      "cluster_probability": 0.3,
+      "min_cluster_size": 3,
+      "max_cluster_size": 15
+    },
+    "predefined_zones": [
+      {"center": [150, 150], "radius": 20, "density": 0.08}
+    ]
+  },
+
+  "terrain_types": ["open_field", "forest", "urban"]
+}

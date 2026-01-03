@@ -1,0 +1,17 @@
+{
+  "name": "坦克",
+  "length": 3,
+  "width": 2,
+  "health": 500,
+  "speed": 2,
+  "can_attack": true,
+  "attack_range": 8,
+  "attack_damage": 100,
+  "vision_range": 10,
+  "armor": 50,
+  "cost": 200,
+  "special_ability": "重装甲",
+  "movement_type": "陆地",
+  "reload_time": 2,
+  "fuel_capacity": 100
+}

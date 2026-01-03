@@ -1,0 +1,17 @@
+{
+  "name": "侦察车",
+  "length": 2,
+  "width": 1,
+  "health": 150,
+  "speed": 4,
+  "can_attack": false,
+  "attack_range": 0,
+  "attack_damage": 0,
+  "vision_range": 12,
+  "armor": 10,
+  "cost": 100,
+  "special_ability": "侦察",
+  "movement_type": "陆地",
+  "reload_time": 0,
+  "fuel_capacity": 120
+}
